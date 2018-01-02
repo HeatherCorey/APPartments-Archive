@@ -16,6 +16,8 @@
 		EFC84DF91FFC09DD001688E3 /* RouteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC84DF81FFC09DD001688E3 /* RouteDetailsViewController.swift */; };
 		EFC84DFD1FFC0DCB001688E3 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC84DFC1FFC0DCB001688E3 /* CoreDataStack.swift */; };
 		EFC84E011FFC0F02001688E3 /* NewRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC84E001FFC0F02001688E3 /* NewRouteViewController.swift */; };
+		EFC84E031FFC18AF001688E3 /* Green Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC84E021FFC18AF001688E3 /* Green Button.jpg */; };
+		EFC84E051FFC18B5001688E3 /* Red Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC84E041FFC18B5001688E3 /* Red Button.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		EFC84DF81FFC09DD001688E3 /* RouteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailsViewController.swift; sourceTree = "<group>"; };
 		EFC84DFC1FFC0DCB001688E3 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		EFC84E001FFC0F02001688E3 /* NewRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRouteViewController.swift; sourceTree = "<group>"; };
+		EFC84E021FFC18AF001688E3 /* Green Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Green Button.jpg"; sourceTree = "<group>"; };
+		EFC84E041FFC18B5001688E3 /* Red Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Red Button.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		EFC84DD71FFC0859001688E3 = {
 			isa = PBXGroup;
 			children = (
+				EFC84E021FFC18AF001688E3 /* Green Button.jpg */,
+				EFC84E041FFC18B5001688E3 /* Red Button.jpg */,
 				EFC84DE21FFC0859001688E3 /* APPartments */,
 				EFC84DE11FFC0859001688E3 /* Products */,
 			);
@@ -167,6 +173,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC84E051FFC18B5001688E3 /* Red Button.jpg in Resources */,
+				EFC84E031FFC18AF001688E3 /* Green Button.jpg in Resources */,
 				EFC84DF11FFC0859001688E3 /* LaunchScreen.storyboard in Resources */,
 				EFC84DEE1FFC0859001688E3 /* Assets.xcassets in Resources */,
 				EFC84DE91FFC0859001688E3 /* Main.storyboard in Resources */,

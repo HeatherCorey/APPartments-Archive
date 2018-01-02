@@ -77,11 +77,31 @@
                                     <constraint firstAttribute="width" constant="240" id="rPK-YA-uUe"/>
                                 </constraints>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olo-gu-0da">
+                                <rect key="frame" x="37.5" y="465.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="CJR-LO-L2c"/>
+                                    <constraint firstAttribute="width" constant="100" id="hHO-gd-koZ"/>
+                                </constraints>
+                                <state key="normal" title="StartRoute" image="Green Button.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb6-C0-gKR">
+                                <rect key="frame" x="237.5" y="466" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="A6o-34-1Ql"/>
+                                    <constraint firstAttribute="width" constant="100" id="aTZ-jQ-3r8"/>
+                                </constraints>
+                                <state key="normal" title="StopRoute" image="Red Button.jpg"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Wb6-C0-gKR" firstAttribute="centerY" secondItem="L34-ol-uv5" secondAttribute="centerY" constant="150" id="1Mc-z0-BFa"/>
+                            <constraint firstItem="Olo-gu-0da" firstAttribute="centerY" secondItem="L34-ol-uv5" secondAttribute="centerY" constant="150" id="9Ah-G9-jt9"/>
                             <constraint firstItem="cwW-YL-VAq" firstAttribute="centerX" secondItem="L34-ol-uv5" secondAttribute="centerX" id="KAY-8l-hnW"/>
                             <constraint firstItem="cwW-YL-VAq" firstAttribute="centerY" secondItem="L34-ol-uv5" secondAttribute="centerY" constant="-125" id="TtS-KR-Jo4"/>
+                            <constraint firstItem="Wb6-C0-gKR" firstAttribute="centerX" secondItem="L34-ol-uv5" secondAttribute="centerX" constant="100" id="fYr-ZL-8Pi"/>
+                            <constraint firstItem="Olo-gu-0da" firstAttribute="centerX" secondItem="L34-ol-uv5" secondAttribute="centerX" constant="-100" id="xAU-FF-2S6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="L34-ol-uv5"/>
                     </view>
@@ -109,4 +129,8 @@
             <point key="canvasLocation" x="-271" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Green Button.jpg" width="225" height="225"/>
+        <image name="Red Button.jpg" width="225" height="225"/>
+    </resources>
 </document>
