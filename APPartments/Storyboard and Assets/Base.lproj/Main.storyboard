@@ -92,6 +92,9 @@
                                     <constraint firstAttribute="width" constant="100" id="aTZ-jQ-3r8"/>
                                 </constraints>
                                 <state key="normal" title="StopRoute" image="Red Button.jpg"/>
+                                <connections>
+                                    <segue destination="w1s-Vs-fqZ" kind="show" id="5Gw-hj-GPe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,7 +111,50 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wz6-hh-kEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1296.8" y="138.98050974512745"/>
+            <point key="canvasLocation" x="1396" y="133"/>
+        </scene>
+        <!--Route Details View Controller-->
+        <scene sceneID="VJj-3B-e44">
+            <objects>
+                <viewController id="w1s-Vs-fqZ" customClass="RouteDetailsViewController" customModule="APPartments" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tU8-41-UOn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="695-OD-YIE">
+                                <rect key="frame" x="67" y="120.5" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="DXP-Ii-Xjk"/>
+                                    <constraint firstAttribute="height" constant="240" id="dwd-7a-G87"/>
+                                </constraints>
+                            </mapView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HGe-0E-pfh">
+                                <rect key="frame" x="0.0" y="467" width="375" height="200"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Results" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnX-Y4-yRt">
+                                <rect key="frame" x="10" y="477" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HGe-0E-pfh" firstAttribute="width" secondItem="tU8-41-UOn" secondAttribute="width" id="JUS-hn-k6y"/>
+                            <constraint firstItem="HGe-0E-pfh" firstAttribute="leading" secondItem="DYY-LJ-NKv" secondAttribute="leading" id="Jxx-9J-lSd"/>
+                            <constraint firstItem="695-OD-YIE" firstAttribute="centerY" secondItem="DYY-LJ-NKv" secondAttribute="centerY" constant="-125" id="TdL-D4-VbD"/>
+                            <constraint firstItem="HGe-0E-pfh" firstAttribute="top" secondItem="DYY-LJ-NKv" secondAttribute="top" constant="403" id="ZtT-fa-Hwz"/>
+                            <constraint firstItem="DYY-LJ-NKv" firstAttribute="trailing" secondItem="HGe-0E-pfh" secondAttribute="trailing" id="cFq-Go-77m"/>
+                            <constraint firstItem="HGe-0E-pfh" firstAttribute="bottom" secondItem="DYY-LJ-NKv" secondAttribute="bottom" id="i56-Te-9N3"/>
+                            <constraint firstItem="695-OD-YIE" firstAttribute="centerX" secondItem="DYY-LJ-NKv" secondAttribute="centerX" id="sNe-2s-4nk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DYY-LJ-NKv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FP4-9U-GHm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2233" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JvI-CY-VR8">

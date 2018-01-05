@@ -17,7 +17,7 @@ class RouteDetailsViewController: UIViewController {
     
 //    Definitions
     
-    var route = Route!
+    var route: Route!
     
 //    Functions
     
